@@ -1,0 +1,7 @@
+C:\Users\sabrinaf\OneDrive - Mercado Eletronico S A\OrientacaoObjetos-BALTA\OrientacaoObjetos\Aula2\bin\Debug\Aula2.exe
+C:\Users\sabrinaf\OneDrive - Mercado Eletronico S A\OrientacaoObjetos-BALTA\OrientacaoObjetos\Aula2\bin\Debug\Aula2.pdb
+C:\Users\sabrinaf\OneDrive - Mercado Eletronico S A\OrientacaoObjetos-BALTA\OrientacaoObjetos\Aula2\obj\Debug\Aula2.csproj.AssemblyReference.cache
+C:\Users\sabrinaf\OneDrive - Mercado Eletronico S A\OrientacaoObjetos-BALTA\OrientacaoObjetos\Aula2\obj\Debug\Aula2.csproj.SuggestedBindingRedirects.cache
+C:\Users\sabrinaf\OneDrive - Mercado Eletronico S A\OrientacaoObjetos-BALTA\OrientacaoObjetos\Aula2\obj\Debug\Aula2.csproj.CoreCompileInputs.cache
+C:\Users\sabrinaf\OneDrive - Mercado Eletronico S A\OrientacaoObjetos-BALTA\OrientacaoObjetos\Aula2\obj\Debug\Aula2.exe
+C:\Users\sabrinaf\OneDrive - Mercado Eletronico S A\OrientacaoObjetos-BALTA\OrientacaoObjetos\Aula2\obj\Debug\Aula2.pdb

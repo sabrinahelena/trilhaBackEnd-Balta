@@ -1,0 +1,7 @@
+C:\Users\sabrinaf\OneDrive - Mercado Eletronico S A\OrientacaoObjetos-BALTA\OrientacaoObjetos\Aula4UsingDispose\bin\Debug\Aula4UsingDispose.exe
+C:\Users\sabrinaf\OneDrive - Mercado Eletronico S A\OrientacaoObjetos-BALTA\OrientacaoObjetos\Aula4UsingDispose\bin\Debug\Aula4UsingDispose.pdb
+C:\Users\sabrinaf\OneDrive - Mercado Eletronico S A\OrientacaoObjetos-BALTA\OrientacaoObjetos\Aula4UsingDispose\obj\Debug\Aula4UsingDispose.csproj.AssemblyReference.cache
+C:\Users\sabrinaf\OneDrive - Mercado Eletronico S A\OrientacaoObjetos-BALTA\OrientacaoObjetos\Aula4UsingDispose\obj\Debug\Aula4UsingDispose.csproj.SuggestedBindingRedirects.cache
+C:\Users\sabrinaf\OneDrive - Mercado Eletronico S A\OrientacaoObjetos-BALTA\OrientacaoObjetos\Aula4UsingDispose\obj\Debug\Aula4UsingDispose.csproj.CoreCompileInputs.cache
+C:\Users\sabrinaf\OneDrive - Mercado Eletronico S A\OrientacaoObjetos-BALTA\OrientacaoObjetos\Aula4UsingDispose\obj\Debug\Aula4UsingDispose.exe
+C:\Users\sabrinaf\OneDrive - Mercado Eletronico S A\OrientacaoObjetos-BALTA\OrientacaoObjetos\Aula4UsingDispose\obj\Debug\Aula4UsingDispose.pdb
