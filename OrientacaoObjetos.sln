@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula3Metodos", "Aula3Metodo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula4UsingDispose", "Aula4UsingDispose\Aula4UsingDispose.csproj", "{D3F1C8BF-EB16-4473-9CD3-997C14049376}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula5Classes", "Aula5Classes\Aula5Classes.csproj", "{5C58DCB4-4655-4D42-BAB6-E5B2344F585C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{D3F1C8BF-EB16-4473-9CD3-997C14049376}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3F1C8BF-EB16-4473-9CD3-997C14049376}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3F1C8BF-EB16-4473-9CD3-997C14049376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C58DCB4-4655-4D42-BAB6-E5B2344F585C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C58DCB4-4655-4D42-BAB6-E5B2344F585C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C58DCB4-4655-4D42-BAB6-E5B2344F585C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C58DCB4-4655-4D42-BAB6-E5B2344F585C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
