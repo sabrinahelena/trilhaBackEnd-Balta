@@ -14,6 +14,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula6Interfaces", "Aula6Int
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula7DelegatesEvents", "Aula7DelegatesEvents\Aula7DelegatesEvents.csproj", "{BC1629D0-6E5A-488A-8BBB-01A32F83695E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula8Generics", "Aula8Generics\Aula8Generics.csproj", "{6582065F-BED0-4597-8FD1-EC7D0D0CD510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula9Listas", "Aula9Listas\Aula9Listas.csproj", "{0CDC8256-59DC-4644-86CD-CB19158CF8A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +52,13 @@ Global
 		{BC1629D0-6E5A-488A-8BBB-01A32F83695E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC1629D0-6E5A-488A-8BBB-01A32F83695E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC1629D0-6E5A-488A-8BBB-01A32F83695E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6582065F-BED0-4597-8FD1-EC7D0D0CD510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6582065F-BED0-4597-8FD1-EC7D0D0CD510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6582065F-BED0-4597-8FD1-EC7D0D0CD510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6582065F-BED0-4597-8FD1-EC7D0D0CD510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CDC8256-59DC-4644-86CD-CB19158CF8A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CDC8256-59DC-4644-86CD-CB19158CF8A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CDC8256-59DC-4644-86CD-CB19158CF8A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CDC8256-59DC-4644-86CD-CB19158CF8A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
