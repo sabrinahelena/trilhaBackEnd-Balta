@@ -89,3 +89,47 @@ select top 100 * from [Curso] where [Nome] like '%Fundamentos%' -- contém funda
 
 SELECT TOP 100 * FROM [Curso] WHERE [Id] IN (1,2) -- Está presente nessa lista
 SELECT TOP 100 * FROM [Curso] WHERE [Id] BETWEEN 1 AND 3 -- Entre 1 e 3
+
+--ALIAS
+
+SELECT top 100 COUNT([Id]) AS [IdsContadas] from [Curso]
+
+
+--JOINS
+
+--INNER JOIN: TUDO DOS CURSOS QUE TAMBÉM ESTEJA NA CATEGORIA. Tudo que existe em curso e tudo que existe em categoria
+SELECT TOP 100 * FROM [Curso] INNER JOIN [Categoria] ON [Curso].[CategoriaId] = [Categoria].[Id]
+
+--LEFT JOIN: Pega todos os itens da PRIMEIRA TABELA. Se a categoria não existir, traz nulo na categoria, mas traz todos os itens da primeira tabela 
+SELECT TOP 100 * FROM [Curso] LEFT JOIN [Categoria] ON [Curso].[CategoriaId] = [Categoria].[Id]
+
+--LEFT JOIN: Pega todos os itens da SEGUNDA TABELA. Se o curso não existir, traz nulo no curso, mas traz todos os itens da primeira tabela 
+SELECT TOP 100 * FROM [Curso] RIGHT JOIN [Categoria] ON [Curso].[CategoriaId] = [Categoria].[Id]
+
+--full outer join: PEGA TUDO TUDO mesmo
+SELECT TOP 100 * FROM [Curso] FULL OUTER JOIN [Categoria] ON [Curso].[CategoriaId] = [Categoria].[Id]
+
+--UNION
+SELECT TOP 100 [Id], [Nome] FROM [Curso] UNION SELECT TOP 100 [Id], [Nome] FROM [Categoria]
+
+--GROUP BY
+SELECT TOP 100 [Categoria].[Nome],
+ COUNT([Curso].[CategoriaId]) AS [CURSOS] FROM [Curso] 
+ INNER JOIN [Categoria] ON [Curso].[CategoriaId] = [Categoria].[Id] 
+ GROUP BY [Categoria].[Nome], [Curso].[CategoriaId]
+
+--HAVING 
+SELECT TOP 100 [Categoria].[Nome],
+ COUNT([Curso].[CategoriaId]) AS [CURSOS] FROM [Curso] 
+ INNER JOIN [Categoria] ON [Curso].[CategoriaId] = [Categoria].[Id] 
+ GROUP BY [Categoria].[Nome], [Curso].[CategoriaId]
+ HAVING COUNT([Curso].[CategoriaId]) > 1 
+
+ --VIEWS: CRIA UM VIEW DISSO PARA USAR DEPOIS, FAZENDO SELECT DESSA VIEW 
+CREATE OR ALTER VIEW vwContagemCursosPorCategoria AS
+    SELECT TOP 100 [Categoria].[Nome],
+    COUNT([Curso].[CategoriaId]) AS [CURSOS] FROM [Curso] 
+    INNER JOIN [Categoria] ON [Curso].[CategoriaId] = [Categoria].[Id] 
+    GROUP BY [Categoria].[Nome], [Curso].[CategoriaId]
+    HAVING COUNT([Curso].[CategoriaId]) > 1 
+
