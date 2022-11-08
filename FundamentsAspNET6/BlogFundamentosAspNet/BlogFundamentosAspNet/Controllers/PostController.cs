@@ -40,7 +40,7 @@ namespace BlogFundamentosAspNet.Controllers
             }
             catch
             {
-                return StatusCode(500, new ResultViewModel<Category>("Falha interna no servidor"));
+                return StatusCode(500, new ResultViewModel<Post>("Falha interna no servidor"));
             }
         }
 
